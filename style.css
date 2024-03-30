@@ -39,7 +39,7 @@
     margin-top: 15px;
     margin-right: 15px;
     height: 6vh;
-    border: solid black;
+    /* border: solid black; */
     border-radius: 0.5rem;
 
     padding: 0 10px; 
@@ -58,3 +58,452 @@
     overflow: hidden;
     width: 8vh;
 }
+
+.Carousel-container{
+     height: 40vh;
+     width: 100%;
+}
+
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5); /* Add background color to the carousel caption */
+    color: #fff; /* Set text color */
+    border-radius: 0.5rem; /* Add border radius */
+    padding: 10px; /* Add padding to the carousel caption */
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#carouselExampleCaptions{
+    height: 40vh;
+}
+
+/* .carousel-inner{
+    height: 60vh;
+ margin-bottom: 250px;
+} */
+
+
+/* card */
+
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.card{
+    padding:0;
+    
+  }
+  .card-wrapper{
+    
+  }
+
+  .active{
+    height: 40vh;
+    margin-bottom: 3em;
+  }
+
+  .carousel-inner{
+    margin-top: 3em;
+  }
+
+  .carousel{
+    height: 15vh;
+  } .carousel-dark {
+
+  }
+.slide{
+
+}
+
+.card-holder{
+    gap: 0.25rem;
+}
+
+
+
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; -ms-box-sizing:border-box; -o-box-sizing:border-box; box-sizing: border-box; }
+
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+
+body {
+	background: #ffffff;
+	color: #333;
+	font-weight: normal;
+	font-size:0.5em;
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+input:focus, textarea:focus, keygen:focus, select:focus {
+	outline: none;
+}
+::-moz-placeholder {
+	color: #666;
+	font-weight: 300;
+	opacity: 1;
+}
+
+::-webkit-input-placeholder {
+	color: #666;
+	font-weight: 300;
+}
+
+
+/* Contact Form Styling */
+.contact-container {
+	padding: 0 20px 50px;
+}
+.textcenter {
+	text-align: center;
+}
+.section1 {
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.section1 .shtext {
+	display: block;
+
+}
+.section1 .seperator {
+	border-bottom:1px solid #a2a2a2;
+	width: 35px;
+	display: inline-block;
+	
+}
+
+.section1 h1 {
+	font-size: 20px;
+	color: #A44DD8;
+	font-weight: normal;
+}
+
+.section2 {
+    width: 1200px;
+    margin: 15px auto;
+}
+.section2 .col2 {
+	width: 48.71%;
+    height: 10vh;
+}
+.section2 .col2.first {
+	float: left;
+}
+.section2 .col2.last {
+	float: right;
+}
+.section2 .col2.column2 {
+	padding: 0 30px;
+}
+.section2 span.collig {
+	color: #a2a2a2;
+	margin-right: 10px;
+	display: inline-block;
+}
+.section2 .sec2addr {
+	display: block;
+	line-height: 13px;
+}
+.section2 .sec2addr p:first-child {
+	margin-bottom: 6px;
+}
+.section2 .sec2contactform input[type="text"], 
+.section2 .sec2contactform input[type="email"],
+.section2 .sec2contactform textarea {
+    padding: 5px;
+    border: 0;
+    background: #EDEDED;
+    margin: 5px 0;
+}
+.section2 .sec2contactform textarea {
+	width: 100%;
+	display: block;
+	color: #666;
+  resize:none;
+}
+.section2 .sec2contactform input[type="submit"] {
+	padding: 7px 10px;
+    color: #fff;
+    border: 0;
+    background: #A44DD8;
+    font-size: 8px;
+    text-transform: uppercase;
+    margin: 7px 0;
+    cursor: pointer;
+}
+.section2 .sec2contactform h3 {
+	font-weight: normal;
+    margin: 10px 0;
+    margin-top: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 19px;
+    color: #A44DD8;
+}
+
+/* @media querries */
+
+@media only screen and (max-width: 1266px) {
+	.section2 {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 960px) {
+	.container {
+		padding: 0 30px 70px;
+	}
+	.section2 .col2 {
+		width: 100%;
+		display: block;
+	}
+	.section2 .col2.first {
+		margin-bottom: 10px;
+	}
+	.section2 .col2.column2 {
+		padding: 0;
+	}
+	body .sec2map {
+		height: 150px !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.section2 .sec2addr {
+		font-size: 14px;
+	}
+	.section2 .sec2contactform h3 {
+		font-size: 16px;
+	}
+	.section2 .sec2contactform input[type="text"], .section2 .sec2contactform input[type="email"], .section2 .sec2contactform textarea {
+		padding: 10px;
+		margin:3px 0;
+	}
+	.section2 .sec2contactform input[type="submit"] {
+		padding: 5px 15px;
+		font-size: 14px;
+	}
+}
+@media only screen and (max-width: 420px) {
+	.section1 h1 {
+		font-size: 14px;
+	}	
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+a,
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+    outline: none;
+}
+
+a,
+a:active,
+a:focus {
+    color: #333;
+    text-decoration: none;
+    transition-timing-function: ease-in-out;
+    -ms-transition-timing-function: ease-in-out;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    -ms-transition-duration: .2s;
+    -moz-transition-duration: .2s;
+    -webkit-transition-duration: .2s;
+    -o-transition-duration: .2s;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+section {
+    padding: 60px 0;
+   /* min-height: 100vh;*/
+}
+.footer {
+background: linear-gradient(105deg,#6e99e6 ,#093c94);
+padding-top: 80px;
+padding-bottom: 40px;
+margin-top: 450px;
+}
+/*END FOOTER SOCIAL DESIGN*/
+.single_footer{}
+@media only screen and (max-width:768px) { 
+.single_footer{margin-bottom:30px;}
+}
+.single_footer h4 {
+color: #fff;
+margin-top: 0;
+margin-bottom: 25px;
+font-weight: 700;
+text-transform: uppercase;
+font-size: 20px;
+}
+.single_footer h4::after {
+content: "";
+display: block;
+height: 2px;
+width: 40px;
+background: #fff;
+margin-top: 20px;
+}
+.single_footer p{color:#fff;}
+.single_footer ul {
+margin: 0;
+padding: 0;
+list-style: none;
+}
+.single_footer ul li{}
+.single_footer ul li a {
+color: #fff;
+-webkit-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+line-height: 36px;
+font-size: 15px;
+text-transform: capitalize;
+}
+.single_footer ul li a:hover { color: #ff3666; }
+
+.single_footer_address{}
+.single_footer_address ul{}
+.single_footer_address ul li{color:#fff;}
+.single_footer_address ul li span {
+font-weight: 400;
+color: #fff;
+line-height: 28px;
+}
+.contact_social ul {
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+
+/*START NEWSLETTER CSS*/
+.subscribe {
+display: block;
+position: relative;
+margin-top: 15px;
+width: 100%;
+}
+.subscribe__input {
+background-color: #fff;
+border: medium none;
+border-radius: 5px;
+color: #333;
+display: block;
+font-size: 15px;
+font-weight: 500;
+height: 60px;
+letter-spacing: 0.4px;
+margin: 0;
+padding: 0 150px 0 20px;
+text-align: center;
+text-transform: capitalize;
+width: 100%;
+}
+@media only screen and (max-width:768px) { 
+.subscribe__input{padding: 0 50px 0 20px;}
+}
+
+.subscribe__btn {
+background-color: transparent;
+border-radius: 0 25px 25px 0;
+color: #01c7e9;
+cursor: pointer;
+display: block;
+font-size: 20px;
+height: 60px;
+position: absolute;
+right: 0;
+top: 0;
+width: 60px;
+}
+.subscribe__btn i{transition: all 0.3s ease 0s;}
+@media only screen and (max-width:768px) { 
+.subscribe__btn{right:0px;}
+}
+
+.subscribe__btn:hover i{
+color:#ff3666;
+}
+button {
+padding: 0;
+border: none;
+background-color: transparent;
+-webkit-border-radius: 0;
+border-radius: 0;
+}
+/*END NEWSLETTER CSS*/
+
+/*START SOCIAL PROFILE CSS*/
+.social_profile {margin-top:40px;}
+.social_profile ul{
+list-style: outside none none;
+margin: 0;
+padding: 0;
+}
+.social_profile ul li{float:left;}
+.social_profile ul li a {
+text-align: center;
+border: 0px;
+text-transform: uppercase;
+transition: all 0.3s ease 0s;
+margin: 0px 5px;
+font-size: 18px;
+color: #fff;
+border-radius: 30px;
+width: 50px;
+height: 50px;
+line-height: 50px;
+display: block;
+border: 1px solid rgba(255,255,255,0.2);
+}
+@media only screen and (max-width:768px) { 
+.social_profile ul li a{margin-right:10px;margin-bottom:10px;}
+}
+@media only screen and (max-width:480px) { 
+.social_profile ul li a{
+width:40px;
+height:40px;
+line-height:40px;
+}
+}
+.social_profile ul li a:hover{
+background:#ff3666;
+border: 1px solid #ff3666;
+color:#fff;
+border:0px;
+}
+/*END SOCIAL PROFILE CSS*/
+.copyright {
+margin-top: 70px;
+padding-top: 40px;
+color:#fff;
+font-size: 15px;
+border-top: 1px solid rgba(255,255,255,0.4);
+text-align: center;
+}
+.copyright a{color:#01c7e9;transition: all 0.2s ease 0s;}
+.copyright a:hover{color:#ff3666;}
